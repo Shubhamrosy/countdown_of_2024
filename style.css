@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b6b5e9;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-image: url(jh.jpg);
+}
+
+.countdown {
+    background-color: blueviolet;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(37, 11, 11, 0.3);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.timer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.timer div {
+    text-align: center;
+}
+
+.timer span {
+    font-size: 24px;
+}
+
+.countdown:hover{
+    border: .50rem solid black;
+}
